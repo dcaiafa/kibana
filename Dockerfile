@@ -1,3 +1,3 @@
-FROM kibana:4.5.1
+FROM kibana:4.6.1
 
 RUN gosu kibana /opt/kibana/bin/kibana plugin --install elastic/sense
